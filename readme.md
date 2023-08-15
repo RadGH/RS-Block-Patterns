@@ -36,9 +36,14 @@ Yes, it should work with Synced Patterns if you use them within an RS Block Patt
 
 ## Screenshots ##
 
+Here is the post type screen, showing a few patterns that I created:
 ![The post type screen, showing a few patterns that I created.](screenshot-1.png)
+
+Here is the menu to add a new block, shown as a sidebar. The menu has a "Patterns" tab between Blocks and Media. The RS Block Patterns menu contains all of the registered items:
 ![The menu to add a new block, shown as a sidebar. The menu has a "Patterns" tab between Blocks and Media. The RS Block Patterns menu contains all of the registered items.](screenshot-2.png)
-![The message from the settings page showing in an email.](screenshot-3.png)
+
+Here is what a block pattern looks like. It will look the same when added to another post type:
+![Shows a block pattern in the edit screen, composed of columns and text and other blocks.](screenshot-3.png)
 
 
 ## Changelog ##
