@@ -109,9 +109,7 @@ class RSBP_Plugin {
 }
 
 function rs_block_patterns() {
-	static $plugin = null;
-	if ( $plugin === null ) $plugin = RSBP_Plugin::get_instance();
-	return $plugin;
+	return RSBP_Plugin::get_instance();
 }
 
 rs_block_patterns();
