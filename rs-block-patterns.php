@@ -97,6 +97,14 @@ class RSBP_Plugin {
 	 * @return void
 	 */
 	public function plugin_activated() {
+		// Include classes that add rewrite rules
+		require_once( RSBP_PATH . '/includes/post-type.php' );
+		
+		// Register the post type now
+		rsbp_register_post_type();
+		
+		// Flush rewrite rules
+		flush_rewrite_rules();
 	}
 	
 	/**
@@ -105,6 +113,8 @@ class RSBP_Plugin {
 	 * @return void
 	 */
 	public function plugin_deactivated() {
+		// Flush rewrite rules
+		flush_rewrite_rules();
 	}
 }
 
