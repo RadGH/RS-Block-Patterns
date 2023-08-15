@@ -1,4 +1,4 @@
-RS-Block-Patterns
+RS Block Patterns (WordPress Plugin)
 ---
 
 This plugin allows you to create block patterns as a custom post type. They are automatically available as block pattern templates which can be used as blocks in any other post type.
