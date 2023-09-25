@@ -71,13 +71,21 @@ function rsbp_restrict_block_pattern_access() {
 add_action( 'template_redirect', 'rsbp_restrict_block_pattern_access' );
 
 /**
- * Remove block patterns from Yoast sitemap
+ * Remove RS Block Patterns from Yoast sitemap
+ *
+ * @param  bool   $is_excluded  TRUE if the post type should NOT appear in the sitemap.
+ * @param  string $post_type    The post type, we are interested in 'rs_block_pattern'.
+ *
+ * @return bool
  */
-function rsbp_exclude_block_patterns_from_sitemap( $post_types ) {
-	$post_types[] = 'rs_block_pattern';
-	return $post_types;
+function rsbp_exclude_block_patterns_from_sitemap( $is_excluded, $post_type ) {
+	if ( $post_type == 'rs_block_pattern' ) {
+		return true;
+	}else{
+		return $is_excluded;
+	}
 }
-add_filter( 'wpseo_sitemap_exclude_post_type', 'rsbp_exclude_block_patterns_from_sitemap' );
+add_filter( 'wpseo_sitemap_exclude_post_type', 'rsbp_exclude_block_patterns_from_sitemap', 20, 2 );
 
 
 /**
