@@ -2,7 +2,7 @@
 /*
 Plugin Name: RS Block Patterns
 Description: Create custom block patterns for use in the Block Editor.
-Version: 1.0.0
+Version: 1.0.1
 Author: Radley Sustaire
 Author URI: https://radleysustaire.com/
 */

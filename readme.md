@@ -14,7 +14,7 @@ Requires ACF in order to categorize each block pattern. However, ACF is only req
     Tags: blocks, synced patterns, Gutenberg
     Requires at least: 6.3
     Tested up to: 6.3
-    Stable tag: 1.0.0
+    Stable tag: 1.0.1
 
 ## Installation ##
 
@@ -47,6 +47,9 @@ Here is what a block pattern looks like. It will look the same when added to ano
 
 
 ## Changelog ##
+
+#### 1.0.1
+* Fixed Yoast sitemap issue. Block patterns will not be included in sitemaps.
 
 #### 1.0.0
 * First release
