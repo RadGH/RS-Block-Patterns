@@ -1,3 +1,13 @@
+# Obsolete – Please read
+
+As of WordPress 6.3, WordPress added support for block patterns natively, with the option to sync them globally or use them as templates.
+
+For more information, see: [Synced Patterns: The Evolution of Reusable Blocks](https://wordpress.org/news/2023/07/synced-patterns-the-evolution-of-reusable-blocks/).
+
+This plugin is no longer necessary, except for preserving your existing patterns registered through this plugin.
+
+---
+
 RS Block Patterns (WordPress Plugin)
 ---
 
